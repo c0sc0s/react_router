@@ -1,25 +1,14 @@
 {
   "students": [
     {
-      "name": "谢杰",
-      "age": "19",
-      "phone": "333-444-555",
-      "email": "xiejie@gmail.com",
-      "education": "硕士",
-      "graduationschool": "渡一大学",
-      "profession": "asdfasdf",
-      "profile": "asdfasfdasdf",
-      "id": 1
-    },
-    {
-      "name": "yajing",
-      "age": "34",
-      "phone": "123-345-678",
-      "email": "yajing@hotmail.com",
-      "education": "fasdfasfd",
-      "graduationschool": "fasfasdf",
-      "profession": "sdfasdfafd",
-      "profile": "asdfasdf",
+      "name": "1",
+      "age": "1",
+      "phone": "1",
+      "email": "1",
+      "education": "本科",
+      "graduationschool": "1",
+      "profession": "1",
+      "profile": "1",
       "id": 3
     },
     {

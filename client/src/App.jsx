@@ -1,7 +1,8 @@
 import { Routes, Route, Navigate, NavLink } from "react-router-dom";
 import Home from "./components/Home";
 import About from "./components/About";
-import Add from "./components/Add";
+import AddOrEdit from "./components/AddOrEdit";
+import Detail from "./components/Detail";
 
 import "./css/App.css"
 
@@ -38,8 +39,10 @@ function App() {
           {/* 在 route 组件中书写你对应的路由，以及路由所对应的组件 */}
           <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/add" element={<Add />} />
-          <Route path="/" element={<Navigate replace to="/home"/>} />
+          <Route path="/add" element={<AddOrEdit />} />
+          <Route path="/" element={<Navigate replace to="/home" />} />
+          <Route path="/detail/:id" element={<Detail />}></Route>
+          <Route path="/edit/:id" element={<AddOrEdit />}></Route>
         </Routes>
       </div>
 
